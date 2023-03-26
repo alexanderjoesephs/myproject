@@ -9,5 +9,9 @@
   </head>
   <body>
 	<h3>Hi there</h3>
+  {% for song in songs %}
+    <p>{{song.name}}</p>
+    <p>{{song.artist}}</p>
+  {% endfor %}
   </body>
 </html>
